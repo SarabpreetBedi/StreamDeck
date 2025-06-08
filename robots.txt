@@ -1,6 +1,9 @@
 User-agent: *
 Disallow:
 
-# Specify the location of your sitemap
+Allow: /de/
+Allow: /en/
+
 Sitemap: https://streamdeck-52o2.onrender.com/sitemap.xml
+
 

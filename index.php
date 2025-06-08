@@ -1,5 +1,5 @@
 <?php
-header("Location: https://streamdeck.vivre-motion.com/de/", true, 301);
+header("Location: https://streamdeck-52o2.onrender.com/de/", true, 301);
 exit;
 ?>
 

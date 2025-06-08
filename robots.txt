@@ -6,4 +6,4 @@ Allow: /de/
 Allow: /en/
 
 # Specify the location of your sitemap
-Sitemap: https://streamdeck.vivre-motion.com/sitemap.xml
+Sitemap: https://streamdeck-52o2.onrender.com/sitemap.xml

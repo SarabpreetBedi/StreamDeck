@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -68,8 +69,15 @@
     <p>With an Elgato Stream Deck or the Logitech MX Creative Console (Macro-Keypad) you have control-all at the push of a button. Whether starting livestream, control the media or bring your workflow to the next level: you can use it with style. Keep an eye on your system values, check your surveillance cameras, control your smart home, start slide shows or spontaneously out a few funny gifs. Everything easy, everything directly - a button pressure is enough.</p>
   </section>
 
-  <img loading="lazy" src="https://shopify.vivre-motion.com/vivre_motion_cover.png" alt="Stream Deck + Logitech Hero" class="hero-image" />
-
+  <!-- Hero Image: DO NOT lazy-load LCP -->
+  <img 
+    src="https://shopify.vivre-motion.com/vivre_motion_cover.png" 
+    alt="Stream Deck + Logitech Hero" 
+    class="hero-image"
+    width="1280" height="720"
+    fetchpriority="high"
+    decoding="async"
+  />
 
     <!-- NEWBLOCK SECTION -->
   <section class="newblock-section">
@@ -123,7 +131,21 @@
           <a target="_blank" href="https://vivre-motion.com/pages/windows_cockpit">Windows Cockpit<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://vivre-motion.com/products/wake-on-lan-plugin">Wake-On-Lan<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/windowscockpit.jpg" alt="Windows Cockpit" /></div>
+        
+        <link rel="preload" as="image" href="/images/windowscockpit.jpg">
+
+       
+        <div class="image-container">
+          <img 
+            src="/images/windowscockpit.jpg" 
+            alt="Windows Cockpit" 
+            width="1200" 
+            height="675"
+            decoding="async"
+            fetchpriority="high"
+            style="max-width: 100%; height: auto;"
+          />
+        </div>
       </article>
 
       <article class="tile">
@@ -135,7 +157,20 @@
           <a target="_blank" href="https://marketplace.elgato.com/product/twitch-54e38b3b-89ab-4400-b55f-645378785709">Twitch<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://marketplace.elgato.com/product/youtube-1aff8623-89a4-456e-88a8-76724ae7cb4b">YouTube<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/twitch.jpg" alt="Live Streaming" /></div>
+
+         <link rel="preload" as="image" href="/images/twitch.jpg">
+
+        <div class="image-container">
+        <img  
+          src="/images/twitch.jpg" 
+          alt="Live Streaming" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>
 
       <article class="tile">
@@ -147,7 +182,19 @@
           <a target="_blank" href="https://vivre-motion.com/pages/windows_cockpit">Windows Cockpit<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://vivre-motion.com/products/music-notes-static-icons">Music Notes<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/music.jpg" alt="Sound Steuerung" /></div>
+
+        <link rel="preload" as="image" href="/images/music.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/music.jpg" 
+          alt="Sound Steuerung" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>
 
       <article class="tile">

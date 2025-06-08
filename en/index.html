@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -48,7 +47,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" />
-  <link rel="stylesheet" href="../style.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/style.css" crossorigin="anonymous" />
 </head>
 
 <body>
@@ -69,7 +68,6 @@
     <p>With an Elgato Stream Deck or the Logitech MX Creative Console (Macro-Keypad) you have control-all at the push of a button. Whether starting livestream, control the media or bring your workflow to the next level: you can use it with style. Keep an eye on your system values, check your surveillance cameras, control your smart home, start slide shows or spontaneously out a few funny gifs. Everything easy, everything directly - a button pressure is enough.</p>
   </section>
 
-  <!-- Hero Image: DO NOT lazy-load LCP -->
   <img 
     src="https://shopify.vivre-motion.com/vivre_motion_cover.png" 
     alt="Stream Deck + Logitech Hero" 
@@ -205,7 +203,18 @@
           <a target="_blank" href="https://vivre-motion.com/products/keyboard-layout-icons">Keyboard Layout<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://vivre-motion.com/products/vlc-player-icons">VLC Player<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/windows11.jpg" alt="Windows 11 Icons" /></div>
+        <link rel="preload" as="image" href="/images/windows11.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/windows11.jpg" 
+          alt="Windows 11 Icons" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>
 
       <article class="tile">
@@ -214,7 +223,18 @@
         <div class="button-group">
           <a target="_blank" href="https://vivre-motion.com/products/moments-slideshow-plugin">Moments Plugin<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/moments.jpg" alt="Moments Plugin" /></div>
+        <link rel="preload" as="image" href="/images/moments.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/moments.jpg" 
+          alt="Moments Plugin" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>
 
       <article class="tile">
@@ -228,7 +248,18 @@
           <a target="_blank" href="https://vivre-motion.com/products/extraterrestrial-signal-icons">Key Glitch<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://vivre-motion.com/products/water-bubbles-icons-1">O² Water Bubbles<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/gif.jpg" alt="GIF Animationen" /></div>
+        <link rel="preload" as="image" href="/images/gif.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/gif.jpg" 
+          alt="GIF Animationen" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div> 
       </article>
 
       <article class="tile">
@@ -243,7 +274,18 @@
           <a target="_blank" href="https://vivre-motion.com/products/pokemon-icons">Pokemon<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://vivre-motion.com/products/minecraft-icons">Minecraft<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/gta_v_cover_icons.jpg" alt="GTA V Shortcut Icons" /></div>
+        <link rel="preload" as="image" href="/images/gta_v_cover_icons.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/gta_v_cover_icons.jpg" 
+          alt="GTA V Shortcut Icons" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>
 
       <article class="tile">
@@ -252,7 +294,18 @@
         <div class="button-group">
           <a target="_blank" href="https://vivre-motion.com/ipcamera">Surveillance CCTV IP Camera<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/ipcamera.jpg" alt="Surveillance CCTV IP Camera" /></div>
+        <link rel="preload" as="image" href="/images/ipcamera.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/ipcamera.jpg" 
+          alt="Surveillance CCTV IP Camera" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>
 
       <article class="tile">
@@ -262,7 +315,18 @@
           <a target="_blank" href="https://vivre-motion.com/products/zip-manager-for-windows-stream-deck-plugin">ZIP-Manager<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://vivre-motion.com/pages/windows_cockpit">Windows Cockpit<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/zipmanager.jpg" alt="ZIP Manager" /></div>
+        <link rel="preload" as="image" href="/images/zipmanager.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/zipmanager.jpg" 
+          alt="ZIP Manager" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>    
 
       <article class="tile">
@@ -271,7 +335,18 @@
         <div class="button-group">
           <a target="_blank" href="https://vivre-motion.com/products/weather-widget-for-windows-stream-deck-plugin">Weather Screen<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/weather.jpg" alt="Weather Screen Plugin" /></div>
+        <link rel="preload" as="image" href="/images/weather.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/weather.jpg" 
+          alt="Weather Screen Plugin" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>    
 
       <article class="tile">
@@ -281,7 +356,18 @@
           <a target="_blank" href="https://vivre-motion.com/products/unicode-matrix-for-windows-stream-deck-plugin">Emoji Explorer<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://unicodematrix.com/">Unicode Matrix<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/emojiexplorer.jpg" alt="Unicode Emoji Explorer Plugin" /></div>
+        <link rel="preload" as="image" href="/images/emojiexplorer.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/emojiexplorer.jpg" 
+          alt="Unicode Emoji Explorer Plugin" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>    
 
       <article class="tile">
@@ -290,7 +376,18 @@
         <div class="button-group">
           <a target="_blank" href="https://vivre-motion.com/products/colorpicker-for-windows">Color Picker<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/picker.jpg" alt="Color Picker Plugin" /></div>
+        <link rel="preload" as="image" href="/images/picker.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/picker.jpg" 
+          alt="Color Picker Plugin" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>   
 
       <article class="tile">
@@ -300,7 +397,18 @@
           <a target="_blank" href="https://vivre-motion.com/products/matrix-display-plugin">Matrix Display<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://vivre-motion.com/pages/windows_cockpit">Windows Cockpit<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/matrixdisplay.jpg" alt="Matrix Display Plugin" /></div>
+        <link rel="preload" as="image" href="/images/matrixdisplay.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/matrixdisplay.jpg" 
+          alt="Matrix Display Plugin" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>   
 
       <article class="tile">
@@ -309,7 +417,18 @@
         <div class="button-group">
           <a target="_blank" href="https://vivre-motion.com/products/systems-vitals-for-windows-stream-deck-plugin">System Vitals<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/systemvitals.jpg" alt="System Vitals Plugin" /></div>
+        <link rel="preload" as="image" href="/images/systemvitals.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/systemvitals.jpg" 
+          alt="System Vitals Plugin" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>   
 
       <article class="tile">
@@ -322,7 +441,18 @@
           <a target="_blank" href="https://vivre-motion.com/products/microsoft-fluent-ui-emoji-3d-icons">MS Fluent UI<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://vivre-motion.com/products/teams-3d-emojis-icons">Teams 3D Emojis<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/teams.jpg" alt="Microsoft Teams" /></div>
+        <link rel="preload" as="image" href="/images/teams.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/teams.jpg" 
+          alt="Microsoft Teams" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>  
 
       <article class="tile">
@@ -333,7 +463,18 @@
           <a target="_blank" href="https://vivre-motion.com/products/mouse-echo-plugin-stream-deck-icons">Mouse Echo<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://vivre-motion.com/products/mouse-trail-for-windows-plugin-stream-deck-icons">Mouse Trail<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/echo.jpg" alt="Mouse Echo Plugin" /></div>
+        <link rel="preload" as="image" href="/images/echo.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/echo.jpg" 
+          alt="Mouse Echo Plugin" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article> 
 
       <article class="tile">
@@ -344,7 +485,18 @@
           <a target="_blank" href="https://vivre-motion.com/products/windows-system-office-icons">Windows 11 Icons<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://vivre-motion.com/products/keyboard-layout-icons">Keyboard Layout<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/mousesimulator.jpg" alt="Mouse Simulator Plugin" /></div>
+        <link rel="preload" as="image" href="/images/mousesimulator.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/mousesimulator.jpg" 
+          alt="Mouse Simulator Plugin" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article> 
 
       <article class="tile">
@@ -353,7 +505,18 @@
         <div class="button-group">
           <a target="_blank" href="https://vivre-motion.com/products/outlook-instant-mail-plugin">Instant Mail<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/outlook.jpg" alt="Outlook Plugin" /></div>
+        <link rel="preload" as="image" href="/images/outlook.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/outlook.jpg" 
+          alt="Outlook Plugin" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>
 
       <article class="tile">
@@ -365,7 +528,18 @@
           <a target="_blank" href="https://vivre-motion.com/products/mouse-trail-for-windows-plugin-stream-deck-icons">Mouse Trail<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://vivre-motion.com/products/focus-screen-mask">Focus Mask<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/focus.jpg" alt="Mouse Spotlight Plugin" /></div>
+        <link rel="preload" as="image" href="/images/focus.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/focus.jpg" 
+          alt="Mouse Spotlight Plugin" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article> 
 
       <article class="tile">
@@ -375,7 +549,18 @@
           <a target="_blank" href="https://vivre-motion.com/products/screen-dive-for-windows-plugin-stream-deck-icons">Screen Dive<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://vivre-motion.com/products/mouse-camera-for-windows-plugin">Mouse Camera<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/screendive.jpg" alt="Screen Dive Plugin" /></div>
+        <link rel="preload" as="image" href="/images/screendive.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/screendive.jpg" 
+          alt="Screen Dive Plugin" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>
 
       <article class="tile">
@@ -385,8 +570,20 @@
           <a target="_blank" href="https://vivre-motion.com/products/auto-translate-free-stream-deck-plugin">Auto Translate<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://vivre-motion.com/pages/windows_cockpit">Windows Cockpit<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/translate.jpg" alt="Auto Translate Plugin" /></div>
+        <link rel="preload" as="image" href="/images/translate.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/translate.jpg" 
+          alt="Auto Translate Plugin" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>
+    
 
       <article class="tile">
         <div class="tile-icon"><i class="title-icon fa-solid fa-table"></i>VBA Macros</div>
@@ -395,7 +592,18 @@
           <a target="_blank" href="https://vivre-motion.com/products/vba-macro-execute">VBA Macro Execute<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://vivre-motion.com/products/excel-xy-navigation-interface">Scroll Pad<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/vba.jpg" alt="VBA Macro Plugin" /></div>
+        <link rel="preload" as="image" href="/images/vba.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/vba.jpg" 
+          alt="VBA Macro Plugin" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>
 
       <article class="tile">
@@ -405,7 +613,18 @@
           <a target="_blank" href="https://vivre-motion.com/products/drop-zone-plugin">Drop Zone<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://vivre-motion.com/pages/windows_cockpit">Windows Cockpit<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/dropzone.jpg" alt="Drop Zone Plugin" /></div>
+        <link rel="preload" as="image" href="/images/dropzone.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/dropzone.jpg" 
+          alt="Drop Zone Plugin" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>
 
       <article class="tile">
@@ -414,7 +633,18 @@
         <div class="button-group">
           <a target="_blank" href="https://vivre-motion.com/products/search-island-plugin">Dynamic Search Island<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/googlesearch.jpg" alt="Dynamic Search Island Plugin" /></div>
+        <link rel="preload" as="image" href="/images/googlesearch.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/googlesearch.jpg" 
+          alt="Dynamic Search Island Plugin" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>
 
       <article class="tile">
@@ -423,7 +653,18 @@
         <div class="button-group">
           <a target="_blank" href="https://vivre-motion.com/pages/windows_cockpit">Windows Cockpit<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/computer.jpg" alt="Windows System" /></div>
+        <link rel="preload" as="image" href="/images/computer.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/computer.jpg" 
+          alt="Windows System"" 
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>
 
       <article class="tile">
@@ -436,7 +677,18 @@
           <a target="_blank" href="https://vivre-motion.com/products/netio-switch-plugin">NETIO PDU<i class="link-icon fa-solid fa-arrow-right"></i></a>
           
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/iotmonitor.jpg" alt="IoT Monitor" /></div>
+        <link rel="preload" as="image" href="/images/iotmonitor.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/iotmonitor.jpg" 
+          alt="IoT Monitor"
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>
 
       <article class="tile">
@@ -448,7 +700,18 @@
           <a target="_blank" href="https://vivre-motion.com/products/windows-98-se-icons">Windows 98SE<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://vivre-motion.com/products/windows-xp-icons">Windows XP<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/win311.jpg" alt="Windows 3.11" /></div>
+        <link rel="preload" as="image" href="/images/win311.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/win311.jpg" 
+          alt="Windows 3.11"
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>
 
       <article class="tile">
@@ -459,7 +722,18 @@
           <a target="_blank" href="https://vivre-motion.com/products/head-up-display-plugin">Head-up-Display<i class="link-icon fa-solid fa-arrow-right"></i></a>
           <a target="_blank" href="https://vivre-motion.com/products/matrix-screensaver-1">Matrix 8k Screensaver<i class="link-icon fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="image-container"><img loading="lazy" src="../images/matrix8k.jpg" alt="Stanby Screen" /></div>
+        <link rel="preload" as="image" href="/images/matrix8k.jpg">
+        <div class="image-container">
+        <img 
+          src="/images/matrix8k.jpg" 
+          alt="Stanby Screen"
+          width="1200" 
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+          style="max-width: 100%; height: auto;"
+        />
+      </div>
       </article>
 
 
@@ -486,12 +760,24 @@
 
 </main>
 
+
 <footer>
   &copy; <span id="year"></span> VIVRE-MOTION. All rights reserved.
 
-  <div class="footer-logo">
-    <a href="https://vivre-motion.com"><img loading="lazy" src="https://shopify.vivre-motion.com/VIVRE-MOTION-PANO_256.png" alt="VIVRE MOTION Logo" /></a>
-  </div>
+  <!-- Footer logo -->
+<div class="footer-logo">
+  <a href="https://vivre-motion.com">
+    <img 
+      src="https://shopify.vivre-motion.com/VIVRE-MOTION-PANO_256.png" 
+      alt="VIVRE MOTION Logo" 
+      width="256" 
+      height="64"
+      decoding="async"
+      fetchpriority="high"
+      style="max-width: 100%; height: auto;"
+    />
+  </a>
+</div>
 </footer>
 
 </body>

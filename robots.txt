@@ -1,6 +1,7 @@
 User-agent: *
 Disallow:
 
+User-agent: Googlebot
 Allow: /de/
 Allow: /en/
 

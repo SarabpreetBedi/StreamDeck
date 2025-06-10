@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
-  <!-- ✅ Title and Description -->
+
   <title>Stream Deck Anwendungsfälle – Was kann man damit machen?</title>
   <meta name="description" content="Entdecke praxisnahe Anwendungsfälle für das Elgato Stream Deck – von Livestreaming bis Smart Home Automatisierung." />
   <meta name="language" content="de" />
@@ -12,7 +11,7 @@
   <meta name="keywords" content="Stream Deck, Elgato, Smart Home, Productivity, Livestreaming" />
   <meta name="author" content="VIVRE MOTION" />
 
-  <!-- ✅ Structured Data -->
+  <!-- ✅ WebPage Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -23,7 +22,68 @@
   }
   </script>
 
-  <!-- ✅ Canonical and Hreflang -->
+  <!-- ✅ Plugin Structured Data: Windows Cockpit -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Windows Cockpit Plugin",
+    "operatingSystem": "Windows",
+    "applicationCategory": "Productivity",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR",
+      "url": "https://vivre-motion.com/pages/windows_cockpit"
+    },
+    "creator": { "@type": "Organization", "name": "VIVRE MOTION" },
+    "description": "Erweitere dein Stream Deck mit Windows-Funktionen wie PDF-Tools, Netzwerkumschaltung, Screenshot, Clipboard, Audio & mehr.",
+    "url": "https://vivre-motion.com/pages/windows_cockpit"
+  }
+  </script>
+
+  <!-- ✅ Plugin Structured Data: Live Streaming Tools -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Live Streaming Tools",
+    "applicationCategory": "Multimedia",
+    "operatingSystem": "Windows, macOS",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "reviewCount": "1000"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": "Steuere deinen Stream mit Plugins für OBS, Twitch, YouTube und Discord direkt über dein Elgato Stream Deck.",
+    "url": "https://marketplace.elgato.com/"
+  }
+  </script>
+
+  <!-- ✅ Plugin Structured Data: Media & Sound Tools -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Media & Sound Tools",
+    "applicationCategory": "Entertainment",
+    "operatingSystem": "Windows, macOS",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": "Nutze dein Stream Deck mit Spotify- und Voicemod-Plugins zur Klangsteuerung und Audiomanipulation.",
+    "url": "https://marketplace.elgato.com/"
+  }
+  </script>
+
+  <!-- ✅ Canonical & Hreflang -->
   <link rel="canonical" href="https://streamdeck-52o2.onrender.com/de/" />
   <link rel="alternate" hreflang="de" href="https://streamdeck-52o2.onrender.com/de/" />
   <link rel="alternate" hreflang="en" href="https://streamdeck-52o2.onrender.com/en/" />
@@ -36,19 +96,20 @@
   <meta property="og:url" content="https://streamdeck-52o2.onrender.com/de/" />
   <meta property="og:image" content="https://shopify.vivre-motion.com/vivre_motion_cover.png" />
 
-  <!-- ✅ Favicon (SVG deprioritized due to browser support) -->
+  <!-- ✅ Favicon -->
   <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
   <link rel="shortcut icon" href="/favicon/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
   <link rel="manifest" href="/favicon/site.webmanifest" />
 
-  <!-- ✅ Fonts and Styles -->
+  <!-- ✅ Fonts & Styles -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" />
   <link rel="stylesheet" href="/style.css" crossorigin="anonymous" />
 </head>
+
 <body>
 <header>
   <nav class="lang-switcher" aria-label="Sprachumschalter">

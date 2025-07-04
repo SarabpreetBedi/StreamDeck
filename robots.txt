@@ -1,6 +1,6 @@
 User-agent: *
-Disallow:
-
+Allow: /
 Sitemap: https://streamdeck-52o2.onrender.com/sitemap.xml
+
 
 

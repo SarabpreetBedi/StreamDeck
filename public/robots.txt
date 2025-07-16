@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://streamdeck-52o2.onrender.com/sitemap.xml
+Sitemap: https://eloquent-halva-8cc3e7.netlify.app/sitemap.xml
 
 
 
